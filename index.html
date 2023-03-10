@@ -10,38 +10,48 @@
 </head>
 <body>
   <div class="score-container">
-    <p>Your Result</p>
-    <div class="score"><p>76<span>of 100</p></span></div>
+    <p class="result-text result-heading">Your Result</p>
+    <div class="score"><p class="score-text">76<span class="result-text score-total">of 100</p></span></div>
     <p class="classification">Great</p>
-    <p>You scored higher than 65% of the people who have taken these tests.</p>
+    <p class="result-text description">You scored higher than 65% of the people who have taken these tests.</p>
   </div>
 
   <div class="summary-container">
-    <div class="reaction-container">
-      <img src="./images/icon-reaction.svg" alt="Reaction Icon">
-      <p class="summary-category">Reaction</p>
+    <p class="summary-heading">Summary</p>
+
+    <div class="summary-result-container reaction">
+      <div class="summary-icon-category-container">
+        <img src="./images/icon-reaction.svg" alt="Reaction Icon">
+        <p class="summary-category-reaction">Reaction</p>
+      </div>
       <p class="summary-score">80 <span>/ 100</span></p>
     </div>
-    <div class="memory-container">
-      <img src="./images/icon-memory.svg" alt="Memory Icon">
-      <p class="summary-category">Memory</p>
+    <div class="summary-result-container memory">
+      <div class="summary-icon-category-container">
+        <img src="./images/icon-memory.svg" alt="Memory Icon">
+        <p class="summary-category">Memory</p>
+      </div>
       <p class="summary-score">92 <span>/ 100</span></p>
     </div>
-    <div class="verbal-container">
-      <img src="./images/icon-verbal.svg" alt="Verbal Icon">
-      <p class="summary-category">Verbal</p>
+    <div class="summary-result-container verbal">
+      <div class="summary-icon-category-container">
+        <img src="./images/icon-verbal.svg" alt="Verbal Icon">
+        <p class="summary-category">Verbal</p>
+      </div>
       <p class="summary-score">61 <span>/ 100</span></p>
     </div>
-    <div class="visual-container">
-      <img src="./images/icon-visual.svg" alt="Visual Icon">
-      <p class="summary-category">Visual</p>
+    <div class="summary-result-container visual">
+      <div class="summary-icon-category-container">
+        <img src="./images/icon-visual.svg" alt="Visual Icon">
+        <p class="summary-category">Visual</p>
+      </div>
       <p class="summary-score">72 <span>/ 100</span></p>
     </div>
   </div>
   <button class="btn-continue">Continue</button>
-  <div class="attribution">
+  <footer>
     Challenge by <a href="https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Irish Cando</a>.
-  </div>
+  </footer>
 </body>
 </html>
