@@ -14,9 +14,11 @@ Users should be able to:
 
 ### Design Templates
 **Desktop View**
+
 ![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)
 
 **Mobile View**
+
 ![Design preview for the Results summary component coding challenge](./design/mobile-design.jpg)
 
 ### Links
