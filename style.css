@@ -41,6 +41,10 @@ body {
   margin-bottom: 0.5em;
 }
 
+.summary-container {
+  padding: 1em 2em;
+}
+
 .summary-result-container, .summary-icon-category-container {
   display: flex;
   flex-direction: row;
@@ -48,14 +52,33 @@ body {
 }
 
 .summary-result-container {
-  width: 80%;
-  margin: 0.5em auto;
-  padding: 0.5em;
+  width: 100%;
+  margin: 1em auto 0.25em;
+  padding: 0.75em;
   border-radius: 0.5em;
 }
 
-.summary-icon-category-container {
+.summary-heading {
+  font-weight: 800;
+  color: hsl(224, 30%, 27%);
+}
 
+.summary-icon {
+  padding-right: 0.75em;
+} 
+
+.summary-category {
+  font-weight: 700;
+}
+
+.summary-score {
+  font-weight: 800;
+  color: hsl(224, 30%, 27%);
+}
+
+.summary-over {
+  color: hsla(224, 30%, 27%, 0.5);
+  font-weight: 700;
 }
 
 /* reaction results  */
@@ -65,6 +88,33 @@ body {
 
 .reaction {
   background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+/* memory results   */
+.summary-category-memory {
+  color: hsl(39, 100%, 56%);
+}
+
+.memory {
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+/* verbal results  */
+.summary-category-verbal {
+  color: hsl(166, 100%, 37%);
+}
+
+.verbal {
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+/* visual results  */
+.summary-category-visual {
+  color: hsl(234, 85%, 45%);
+}
+
+.visual {
+  background-color: hsla(234, 85%, 45%, 0.1);
 }
 
 footer { 
