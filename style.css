@@ -178,13 +178,18 @@ footer a {
 /* for desktop and larger screens */
 @media (min-width: 1240px) {
   body {
-    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
   }
 
   .main-container {
     flex-direction: row;
-    justify-content: center;
-    box-shadow: hsla(228, 45%, 44%, 0.5)  0px 7px 29px 0px;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: hsla(228, 45%, 44%, 0.4)  10px 27px 29px 0;
   }
 
   .score-container, .summary-category {
@@ -195,6 +200,8 @@ footer a {
     background-color:hsl(0, 0%, 100%);
     width: 25vw;
     max-width: 400px;
+    margin-bottom: 0;
+    border-radius: 0 50px 50px 0;
   }
 
   footer {
