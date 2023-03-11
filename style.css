@@ -9,6 +9,7 @@
 body {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
   font-family: 'Hanken Grotesk', sans-serif;
   font-size: 18px;
 }
@@ -19,8 +20,10 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   border-radius: 0 0 50px 50px;
+  height: 50vh;
 }
 
 .result-heading {
