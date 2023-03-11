@@ -15,12 +15,17 @@ body {
 
 .score-container {
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-  padding: 2em;
+  padding: 1em;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 0 50px 50px;
 }
 
 .result-heading {
   font-weight: 800;
+  padding-bottom: 1.25em;
 }
 
 .result-text {
@@ -29,10 +34,25 @@ body {
 
 .score {
   background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
-  width: 10em;
-  height: 10em;
+  width: 8em;
+  height: 8em;
   border-radius: 50%;
+  margin-bottom: 0.75em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.score-text {
+  color: hsl(0, 0%, 100%);
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.score-total {
+  color: hsla(241, 100%, 89%, 0.8);
+}
+
 
 .classification {
   color: hsl(0, 0%, 100%);
@@ -41,6 +61,12 @@ body {
   margin-bottom: 0.5em;
 }
 
+.description {
+  max-width: 300px;
+  margin-bottom: 1em;
+}
+
+/* summary results */
 .summary-container {
   padding: 1em 2em;
 }
@@ -53,7 +79,7 @@ body {
 
 .summary-result-container {
   width: 100%;
-  margin: 1em auto 0.25em;
+  margin: 1em auto;
   padding: 0.75em;
   border-radius: 0.5em;
 }
@@ -115,6 +141,23 @@ body {
 
 .visual {
   background-color: hsla(234, 85%, 45%, 0.1);
+}
+
+/* continue button */
+.btn-continue {
+  background-color: hsl(224, 30%, 27%);
+  width: 100%;
+  border-radius: 5em;
+  color:hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-size: 1.15rem;
+  padding: 1em;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-continue:hover {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
 footer { 
